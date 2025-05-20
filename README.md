@@ -1,4 +1,4 @@
-//Warthunder Discord Bot\\
+**Warthunder Discord Bot**
 
 This bot is a personal project of mine based aroud the game "War Thunder"
 it is intergrated into a discord server with just over 1000 members who also play the game.
