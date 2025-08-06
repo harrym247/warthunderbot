@@ -34,8 +34,8 @@ db_pool = None
 user_messages = {}  # Store message IDs by user ID for deletion when they leave
 
 # Define monitored voice channels
-MONITORED_VOICE_CHANNELS = [1213375603919818802, 1213597037661261845]
-TEXT_CHANNEL_ID = 1324178202129600532  # Channel where vehicle messages are posted
+MONITORED_VOICE_CHANNELS = [--, --]
+TEXT_CHANNEL_ID = --  # Channel where vehicle messages are posted
 
 squadrons = {
     'Blackfoot': 'https://warthunder.com/en/community/claninfo/Blackfoot',
@@ -78,7 +78,7 @@ async def on_ready():
         print(f"❌ Failed to sync commands: {e}")
 
     print(f'Logged in as {bot.user.name}')
-    for command in bot.tree.get_commands(guild=discord.Object(id=779462911713607690)):
+    for command in bot.tree.get_commands(guild=discord.Object(id=--)):
         print(f"✅ Slash command registered in guild: /{command.name}")
     
     # Start the squadron data update task
@@ -1124,3 +1124,4 @@ class NextButton(discord.ui.Button):
 # ──────────────── RUN ────────────────
 
 bot.run(token)
+
